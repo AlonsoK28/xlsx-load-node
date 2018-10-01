@@ -1,4 +1,4 @@
-carga-XLSX-node
+**Code variables and views text are writted in spanish lenguague**
 
 Frameworks / Libs used
 
