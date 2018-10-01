@@ -1,6 +1,6 @@
 ## How to use
 - Start Node in the project directory with node main.js
-- Go to [localhost](http://localhost:911/carga-xlsx-web)
+- Go to [http://localhost:911/cargar-xlsx-web](http://localhost:911/carga-xlsx-web)
 - Generate the DB and the user to use
 - Load a file with XSLX extension
 - Observe the results
