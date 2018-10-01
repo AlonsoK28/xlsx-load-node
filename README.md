@@ -6,5 +6,5 @@ Frameworks / Libs used
 * MySQL
 * Node 
 * Express
-* Boostrap
-* FontAwesome
+* Boostrap 4
+* FontAwesome 5.1.1
