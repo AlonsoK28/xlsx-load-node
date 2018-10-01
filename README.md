@@ -1,13 +1,11 @@
-**Code variables and views text are writted in spanish lenguague**
-
-*How to use*
+## How to use
 - Start Node in the project directory with node main.js
 - You saw http: // localhost: 911 / carga-xlsx-web
 - Generate the DB and the user to use
 - Load a file with XSLX extension
 - Observe the results
 
-*Frameworks / Libs used*
+## Frameworks / Libs used
 * XLSX 
 * MySQL
 * Node 
@@ -19,7 +17,7 @@ The project is 100% free to use for non-commercial purposes, if you use this pro
 Help me develop more projects like this
 https://www.buymeacoffee.com/alonsokyoyama
 
-To-do
+## To-do
 Cache XLSX library errors and display them in the view
 Improvements in Ajax calls of sight
 Show load statistics to the database
