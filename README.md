@@ -5,6 +5,17 @@
 - Load a file with XSLX extension
 - Observe the results
 
+### Usage
+Adds your MySQL DB credentials in this file
+* constantes.js
+`exports.configuracionBD = {
+  HOST: "your_host",
+  BD_USER: "your_user",
+  BD_NAME: "your_db_name",
+  BD_PASSWORD: "your_pwd",
+  BD_PORT: your_port
+}`
+
 ## Frameworks / Libs used
 * [XLSX load lib](https://github.com/Rizwaan-Company/xlsx-mysql)
 * MySQL
