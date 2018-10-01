@@ -17,7 +17,7 @@
 
 The project is 100% free to use for non-commercial purposes, if you use this project please the respective credits to the author
 Help me develop more projects like this
-https://www.buymeacoffee.com/alonsokyoyam
+https://www.buymeacoffee.com/alonsokyoyama
 
 To-do
 Cache XLSX library errors and display them in the view
