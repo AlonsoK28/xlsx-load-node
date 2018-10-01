@@ -6,7 +6,7 @@
 - Observe the results
 
 ## Frameworks / Libs used
-* XLSX 
+* [XLSX load lib](https://github.com/Rizwaan-Company/xlsx-mysql)
 * MySQL
 * Node 
 * Express
