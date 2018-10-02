@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="/recursos/css/lib/bootstrap.min.4.0.0.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="/recursos/css/mod/inicio.css">
+        <link rel="stylesheet" href="/recursos/css/lib/fontawesome.v5.1.1.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+        <title>Sistema Web para cargar de archivos XLSX a MySQL</title>
+    </head>
+    <body>
+        <div class="jumbotron">
+            <h1 class="display-3">Sistema Web para cargar de archivos XLSX a MySQL</h1>
+            <p class="lead">Selecciona el archivo a cargar</p>
+            <hr class="my-1">
+            <div class="carga-archivo">
+                <div class="form-group">
+                    <label for="exampleInputFile">Carga de archivo</label>
+                    <form id="uploadForm" enctype="multipart/form-data" action="/carga-de-archivo" method="post">
+                        <input type="file" class="form-control-file btn btn-info file-picker" name="archivo" aria-describedby="fileHelp">
+                        <small id="fileHelp" class="form-text text-muted">Favor de seleccionar un archivo con extensión XLSX</small>
+                        <input type="submit" value="Cargar archivo" name="submit" class="btn btn-primary file-button">
+                        <span id="status"></span>
+                    </form>
+                </div>
+            </div>
+        </div>   
+    </body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="/recursos/js/lib/jquery.1.7.1.min.js"></script>
+    <script src="/recursos/js/lib/jquery.form.min3.51.js"></script>
+    <script src="/recursos/js/lib/jquery-3.2.1.min.js"></script>
+    <script src="/recursos/js/lib/jquery.form.malsup.js"></script>
+    <script src="/recursos/js/lib/popper.1.12.9.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="/recursos/js/lib/bootstrap.4.0.0.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="/recursos/js/mod/inicio.js"></script>
+</html>

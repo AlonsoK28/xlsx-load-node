@@ -1,0 +1,19 @@
+.file-picker{
+    margin-top: 1.5%;
+}
+
+.file-button{
+    margin-top: 1.5%;
+}
+
+.error{
+    color: red;
+}
+
+.success{
+    color: blue;
+}
+
+#status > div{
+    margin-top: 20px;
+}
