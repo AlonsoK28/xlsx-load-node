@@ -11,6 +11,9 @@
 # Usage
 
 ## XLSX file (called 'XLSX')  
+
+> There are an example XLSX file in `./files/BD_SAMPLE.xlsx`
+
 ### Filename  
 Name of the XLSX file (case-incensitive)
 
@@ -22,6 +25,8 @@ Name of the columns that contain the data (case-incensitive) [See data types](ht
 
 ## MySQL
 
+> There are an example MySQL script file in `./files/bd_sample.sql`
+
 ### Database
 Should be equals that XLSX file name (case-incensitive)
 
@@ -31,7 +36,7 @@ Should be equals that XLSX worksheet (case-incensitive)
 ### Columns
 Should exists and be equals that XLSX columns (case-incensitive)
 
-## MySQL server
+## MySQL user credentials
 Adds your MySQL Server credentials in this file
 
 **constantes.js**
@@ -44,6 +49,13 @@ exports.configuracionBD = {
   BD_PORT: your_mysql_port
 }
 ```
+
+## Data Type
+### XLSX
+In XLSX file is enought with store your data with `General format`
+
+### MySQL
+In MySQL you could stote your data in a `varchar field` for all your data
 
 # Dependences
 * [xlsx-mysql load lib](https://github.com/Rizwaan-Company/xlsx-mysql)
