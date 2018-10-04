@@ -21,7 +21,7 @@ Name of the XLSX file (case-incensitive)
 Name of the XLSX worksheet where is data (case-incensitive)
 
 ### Columns  
-Name of the columns that contain the data (case-incensitive) [See data types](https://github.com/AlonsoK28/xlsx-load-node#mysql)
+Name of the columns that contain the data (case-incensitive) [See data types](https://github.com/AlonsoK28/xlsx-load-node#data-type)
 
 ## MySQL
 
