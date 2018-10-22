@@ -65,9 +65,7 @@ In MySQL you could stote your data in a `varchar field` for all your data
 * Boostrap 4
 * [FontAwesome 5.1.1]([https://fontawesome.com/](https://fontawesome.com/))
 
-* The project is 100% free to use for non-commercial purposes
-
-## If you use this project please give the respective credits to the author
+## The project is 100% free to use for non-commercial purposes, If you use this project please give the respective credits to the author
 
 * Help me to develop more projects like this https://www.buymeacoffee.com/alonsokyoyama
 
