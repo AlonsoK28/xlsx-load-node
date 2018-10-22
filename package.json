@@ -1,6 +1,6 @@
 {
   "name": "xlsx-load-node",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This project loads a file in XLSX format and inserts his content into a MySQL database",
   "main": "main.js",
   "scripts": {
