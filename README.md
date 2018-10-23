@@ -4,9 +4,10 @@
 # How to use
 - Create XLSX file [See how to create XLSX file](https://github.com/AlonsoK28/xlsx-load-node#xlsx-file-called-xlsx)
 - Create MySQL database [See how to create MySQL database](https://github.com/AlonsoK28/xlsx-load-node#mysql)
-- Start Node in the project directory with `node main.js`
+- Install with `npm i xlsx-load-node` or download the project in `ZIP file`
+- Start `NodeJS` in the project directory with `node main.js`
 - Go to [http://localhost:911/cargar-xlsx-web](http://localhost:911/carga-xlsx-web)
-- Load XLSX file
+- Load `XLSX file`
 - See results
 # Usage
 
@@ -60,7 +61,7 @@ In MySQL you could stote your data in a `varchar field` for all your data
 # Dependences
 * [xlsx-mysql load lib](https://github.com/Rizwaan-Company/xlsx-mysql)
 * MySQL
-* Node 
+* NodeJS 
 * Express
 * Boostrap 4
 * [FontAwesome 5.1.1]([https://fontawesome.com/](https://fontawesome.com/))
