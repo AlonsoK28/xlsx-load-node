@@ -17,9 +17,9 @@ exports.configuracionWeb = {
  * @return {Obj} configuracionBD
  */
 exports.configuracionBD = {
-  HOST: "127.0.0.1",
-  BD_USER: "xadanico_stxadan",
-  BD_NAME: "carga-xlsx",
-  BD_PASSWORD: "*CbV54mK9-6S",
+  HOST: "your_mysql_host",
+  BD_USER: "your_mysql_user",
+  BD_NAME: "your_mysql_db_name",
+  BD_PASSWORD: "your_mysql_pwd",
   BD_PORT: 3306
 }
