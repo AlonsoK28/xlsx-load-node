@@ -1,3 +1,7 @@
+/**
+ * @author Carlos Alonso Casales Ortega <calonso011@yahoo.com.mx>
+ * @description Main JS file of the project
+ */
 var express     = require("express");
     path = require("path"),
     multer = require('multer'),
@@ -35,7 +39,7 @@ app.use(constantes.configuracionWeb.DIRECTORIO_VIRTUAL, express.static("./assets
 
 
 /**
- * @author Carlos Alonso Casales Ortega <carlos.casales@ine.mx>
+ * @author Carlos Alonso Casales Ortega <calonso011@yahoo.com.mx>
  * @description Router de Index
  */
 app.get(constantes.configuracionWeb.CONTEXTO,function(req, res){

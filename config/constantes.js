@@ -1,5 +1,5 @@
 /**
- * @author Carlos Alonso Casales Ortega <carlos.casales@ine.mx>
+ * @author Carlos Alonso Casales Ortega <calonso011@yahoo.com.mx>
  * @description Objeto con la cadena de conexion de la configuracion de los parametros web que usa la aplicacion
  * @return {Obj} configuracionBD
  */
@@ -12,7 +12,7 @@ exports.configuracionWeb = {
 }
 
 /**
- * @author Carlos Alonso Casales Ortega <carlos.casales@ine.mx>
+ * @author Carlos Alonso Casales Ortega <calonso011@yahoo.com.mx>
  * @description Objeto con la cadena de conexion de la BD
  * @return {Obj} configuracionBD
  */

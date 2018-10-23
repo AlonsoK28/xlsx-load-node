@@ -1,6 +1,6 @@
 module.exports = {
   /**
-  * @author Carlos Alonso Casales Ortega <carlos.casales@ine.mx>
+  * @author Carlos Alonso Casales Ortega <calonso011@yahoo.com.mx>
   * @description Ingresa las tuplas de un archivo XLSX dado a una BD mySQL
   * @param  {File} archivo
   * @param  {Obj} constantes

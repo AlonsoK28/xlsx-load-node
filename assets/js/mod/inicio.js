@@ -1,3 +1,7 @@
+/**
+ * @author Carlos Alonso Casales Ortega <calonso011@yahoo.com.mx>
+ * @description Ajax call from client to upload XLSX file to server
+ */
 $(document).ready(function () {
   $("#uploadForm > input.btn.btn-primary.file-button").click(function () {
     let archivo = $('input[type="file"]', "#uploadForm").val().split(".").reverse()[0];
