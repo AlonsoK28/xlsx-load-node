@@ -67,6 +67,10 @@ app.post('/carga-de-archivo', function (req, res) {
 
 });
 
+/**
+ * @author Carlos Alonso Casales Ortega <calonso011@yahoo.com.mx>
+ * @description Port config
+ */
 app.listen(constantes.configuracionWeb.PUERTO,function(){
-    console.log(`Aplicación escuchando en el PUERTO: ${constantes.configuracionWeb.PUERTO}`);
+  console.log(`App is working in http://localhost:${constantes.configuracionWeb.PUERTO}${constantes.configuracionWeb.CONTEXTO}`);
 });
