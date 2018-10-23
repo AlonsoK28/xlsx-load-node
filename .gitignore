@@ -30,6 +30,9 @@ node_modules
 # XLSX uploads directory
 assets/uploads/*
 
+# exception to the rule
+!assets/uploads/.gitkeep 
+
 # vscode workspace
 *.code-workspace
 
