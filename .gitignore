@@ -28,7 +28,7 @@ build/Release
 node_modules
 
 # XLSX uploads directory
-assets/uploads/
+assets/uploads/*
 
 # vscode workspace
 *.code-workspace
