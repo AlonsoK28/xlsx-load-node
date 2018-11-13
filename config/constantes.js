@@ -8,7 +8,7 @@ exports.configuracionWeb = {
   DIRECTORIO_VIRTUAL: "/recursos/",
   DIRECTORIO_SCREENSHOTS: "screenshots/",
   DIRECTORIO_UPLOADS: "/assets/uploads",
-  PUERTO: 911
+  PUERTO: process.env.PORT || 911
 }
 
 /**
